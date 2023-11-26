@@ -698,3 +698,53 @@ html {
       margin: 10px 0; /* Optional: for some space between columns when they are stacked */
   }
 }
+
+
+
+/*
+/* Burger Menu
+/* 
+
+/* Style the navigation menu */
+.topnav {
+  /*overflow: hidden;*/
+  background-color: rgb(197, 197, 197)8d8;
+  position: relative;
+  right: 0;
+  height: 48px;
+}
+
+/* Hide the links inside the navigation menu (except for logo/home) */
+.topnav #myLinks {
+  display: none;
+  background: #fffefe92;
+  position: absolute;
+  top: 48px;
+  z-index: 1;
+  width: 100px;
+  right:0;
+}
+
+/* Style navigation menu links */
+.topnav a {
+  color: rgb(3, 3, 3);
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+/* Style the hamburger menu */
+.topnav a.icon {
+  background: #ddd;
+  display: block;
+  /*position: absolute;*/
+  right: 0;
+  top: 0;
+}
+
+/* Add a grey background color on mouse-over */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
